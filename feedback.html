@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dead by Daylight - A beginners guide</title>
+
+<meta charset="uft-8">
+<link rel="stylesheet" href="colors.css">
+
+<style>
+
+.fixing {
+  padding-right: 130px;
+}
+
+
+</style>
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Links
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="intro.html">Intro</a>
+        <a href="survivors.html">Survivor</a>
+        <a href="hunter.html">Hunter</a>
+        <a href="perks.html">Perks</a>
+        <a href="status effects.html">Status effects</a>
+        <a href="gameplay.html">Gameplay</a>
+        <a href="feedback.html">Feedback</a>
+      </div>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+  <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+  <h1>Feedback</h1>
+
+  <p>If you have any questions, remember to contact me through my email or phone. To give feedback, please rate this website 1-10 on the slider and leave a comment saying why. This will help
+  me improve the website for beginners. </p>
+
+<form>
+  <label for="rating">Rating:</label>
+  1 <input type="range" id="rating" name="rating" min="0" max="10"> 10
+  <br><br><br>
+  <label for="myComments">Comments:</label>
+  <textarea name="myComments" id="myComments" cols="30" rows="5" required="required"></textarea>
+  <br><br>
+  <input type="submit" value="Submit">
+
+</form>
+<br>
+</body>
+
+<footer>
+<small>
+<i>
+<a href="mailto:richard.phipps@ksc.keene.edu">richard.phipps@ksc.keene.edu</a><br>
+<a href="tel:+603 620 1504">603-620-1504</a>
+</i>
+</small>
+</footer>
+</html>

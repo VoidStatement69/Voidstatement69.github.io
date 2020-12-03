@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Dead by Daylight - A beginners guide</title>
+<meta charset="uft-8">
+<link rel="stylesheet" href="colors.css">
+
+<style>
+
+.fixing {
+  padding-left: 130px;
+}
+
+#fixing {
+  padding-right: 130px;
+}
+
+#survivor {
+  color: #1581DD;
+}
+
+#hunter {
+  color: #DD1515;
+}
+
+
+</style>
+
+</head>
+
+<nav>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Links
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="intro.html">Intro</a>
+      <a href="survivors.html">Survivor</a>
+      <a href="hunter.html">Hunter</a>
+      <a href="perks.html">Perks</a>
+      <a href="status effects.html">Status effects</a>
+      <a href="gameplay.html">Gameplay</a>
+      <a href="feedback.html">Feedback</a>
+    </div>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+</nav>
+
+
+<body>
+
+<header>
+<h1><span id="fixing">Introduction to the game</span></h1>
+<audio controls>
+<source src="Background music.mp3" type="audio/mpeg">
+  <a href="Background music.mp3">Download it here</a>
+</audio>
+</header>
+
+
+<main>
+
+<script>
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+
+<h2 class="fixing">Hello!</h2>
+
+<p>Greetings to whoever accesses this page. You're probably here because Dead by Daylight is not being so kind
+to beginners. Don't worry! I am here to teach you the basic and how to improve!
+</p>
+
+<h3>The sides</h3>
+<p>Dead by Daylight is a asymmectrical multiplayer game. Meaning that there are two side. Those sides consist of...</p>
+
+<ul>
+  <li><span id = "survivor">The Survivor (4 players)</span></li>
+  <li><span id = "hunter">The Hunter (1 player)</span></li>
+</ul>
+
+<h3>The goals</h3>
+
+<dl>
+  <dt><span id = "survivor">The Survivors</span></dt>
+    <dd>The common goal of the survivors is to escape the map. By doing that they must repair 5 generators in order to escape.</dd><br>
+  <dt><span class = "hunter">The Hunter</span></dt>
+    <dd>The goal of the killer is to prevent the survivors from escaping by making sure they dont complete the 5 gens by any means necessary.</dd>
+</dl>
+
+<h3>Perspectives</h3>
+
+<p>Let's talk about the perspectives for a moment because this is very important.</p>
+
+<dl>
+  <dt><span class = "survivor">The Survivors</span></dt>
+    <dd>The survivors have a third person perspective. They can see more than the hunter by being able to look over certain
+      objects than the hunter. Which can be a huge advantage.</dd>
+      <img src="Third_person_view.png" alt"Survivor view" width="50%" height= "50%">
+  <dt><span class = "hunter">The Hunter</span></dt>
+    <dd>The hunter has a first person persepctive. This can be very tricky since the killer cannot see as much as the survivors can.</dd><br><br>
+      <img src="Hunter_first_person.png" alt="Hunter view" width="50%" height="50%">
+</dl>
+
+<h3>Currency</h3>
+<p>There is currency and they consist of...</p>
+<ul>
+  <li><span class = "hunter">Bloodpoints</span> - Used for buying items and perks in the bloodweb (Obtained by playing the game)</li>
+  <li><span class = "survivor">Iridecent Shards</span> - Used for getting characters in game or to buy cosmetics for the characters (Obtained by leveling up)</li>
+  <li><span class = "gold">Auric Cells</span> - Similar to the shards, you can only obtain these by paying real money.</li>
+</ul>
+
+
+<h3>Leveling system</h3>
+
+<p>In Dead by Daylight, the survivors and the hunter have a level. Starting at rank 20 (lowest) and going all the way down to rank 1 (highest). (Note: Every 13th of each month,
+  your rank will reset and go back a couple of ranks just to keep the flow going.)</p><br>
+<img src="Ranks_hunter.gif" alt="Hunter Rank 20-1">
+<p>To level up, you need to do well as a player in each match.
+You will be scored based on your proformance and the emblems will decide if you earned it or not. There are 5 levels to a emblem. </p>
+
+<ol>
+  <li><span class = "hunter">Iridescent</span></li>
+  <li><span class = "gold">Gold</span></li>
+  <li><span class = "silver">Silver</span></li>
+  <li><span class = "bronze">Bronze</span></li>
+  <li>Nothing</li>
+</ol>
+<p>In survivors you will be scored on...</p>
+
+<table border = "1px">
+
+  <tr>
+  <td>Lightbringer</td>
+  <td>Unbroken</td>
+  <td>Benevolent</td>
+  <td>Evader</td>
+  </tr>
+
+  <tr>
+  <td>finish generators, cleanse totems, and distract the hunter</td>
+  <td>The goal is to stay alive as long as possible.
+    Escaping the trial without being down will give Iridescent, gold if you escape but got downed,Silver and downwards if you die (depends on the amount of time you have been alive before being dying)</td>
+  <td>Gained by healing and unhooking other surviors. There are alot of variables that go into this, but the main point of it
+  is to help other survivors whenever they are in danger.</td>
+  <td>This emblem is all about getting chased by the hunter and escaping him. You get rewarded for being chased and escaping.
+  However, if you lose the chase, you lose points.</td>
+</tr>
+</table>
+
+<p>For the hunter, you will be scored on...</p>
+
+<table border="1px">
+<tr>
+  <td>Gatekeeper</td>
+  <td>Devout</td>
+  <td>Malicious</td>
+  <td>Chaser</td>
+</tr>
+
+<tr>
+  <td>To get this, you must keep the generators from being repaired. The longer, the better score.</td>
+  <td>To get this, you must eliminate the survivors by any means necessary. Whatever takes them out of the trial faster, the better.</td>
+  <td>To get this, you must hit surviors and apply pressure to them without them healing. The less healing, the better.</td>
+  <td>To get this, you need to find and chase surviors. The shorter the chase, the better score you will get.</td>
+</tr>
+</table>
+
+<h3>Auras</h3>
+
+<p>Auras in the game are what reveal positions of both survivors and the hunter. There are specific perks that can do this for each side. Since there are alot of deteaction perks. I will leave a link to all
+  the perks in the game that include exposing auras.</p>
+
+  <img src="Auras.png" alt="Aruas" width="50%" height= "50%">
+
+<h3>The Bloodweb</h3>
+
+<p> The bloodweb is where you can obtain items, add-ons, perks, and sharable perks from each survivor and hunter. </p>
+
+<img src="Bloodweb.png" alt="Bloodweb" width="50%" height= "50%">
+
+</body>
+<hr>
+<footer>
+<div>
+  Have any questions? Contact me here so that I can answer your questions.<br>
+  <small>
+  <i>
+  <a href="mailto:richard.phipps@ksc.keene.edu">richard.phipps@ksc.keene.edu</a><br>
+  <a href="tel:+603 620 1504">603-620-1504</a>
+  </i>
+  <small>
+  </footer>
+</div>
+</main>
+
+
+</html>
